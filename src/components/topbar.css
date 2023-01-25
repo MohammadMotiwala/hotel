@@ -1,0 +1,29 @@
+.top-bar {
+    background-color: #b14b4b;
+}
+
+.top-bar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-bar .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.top-bar .inner .left-info a {
+    margin-right: 20px;
+    font-size: 16px;
+    font-family: system-ui;
+}
+
+.top-bar .inner .right-info .social-links a {
+    margin: 0 10px;
+}
+
+.top-bar .inner .left-info a:last-of-type {
+    margin: 0;
+}

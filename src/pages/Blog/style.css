@@ -1,0 +1,74 @@
+.singleBlog img {
+  width: 100%;
+}
+
+.blog .rblock img {
+  max-height: 250px;
+  min-height: 250px;
+  object-fit: cover;
+}
+
+.rblock {
+  background-color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 0px;
+  position: relative;
+  width: calc(100% / 3 - 20px);
+  margin-bottom: 30px;
+}
+
+.rblock img {
+  width: 100%;
+  min-height: 250px;
+  object-fit: cover;
+}
+
+.rblock h3 {
+  margin: 0px;
+}
+
+.rblock h3+p {
+  margin: 20px 0 25px;
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #777;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.rblock h3 a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Old Standard TT", serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #333;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.rblock .info {
+  padding: 30px;
+  position: relative;
+  text-transform: capitalize;
+}
+
+.rblock a.book-now {
+  padding: 10px;
+}
+
+.rblock a.read-more {
+  background: transparent;
+  color: #bead8e;
+  border: 1px solid;
+}
+
+.rblock a.read-more:hover {
+  background: #333;
+  color: #fff;
+}

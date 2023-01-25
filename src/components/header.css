@@ -1,0 +1,60 @@
+header .logo {
+    padding: 25px 0;
+    text-align: left;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: system-ui;
+}
+
+header .logo a {
+    text-decoration: none;
+    color: #333;
+}
+
+header .info a {
+    color: #333;
+    text-decoration: none;
+}
+
+header .info .phone {
+    padding: 0 0 12px 0;
+}
+
+header .info a svg {
+    font-size: 18px;
+    position: relative;
+    right: 5px;
+}
+
+header .box {
+    width: calc(100% / 3);
+}
+
+.social-links ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.social-links ul li {
+    list-style: none;
+}
+
+.social-links ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    padding: 0 7px;
+}
+
+@media (max-width: 767px) {
+    header .box {
+        width: 100%;
+        text-align: center;
+    }
+
+    header .inner {
+        padding: 20px 0;
+    }
+}

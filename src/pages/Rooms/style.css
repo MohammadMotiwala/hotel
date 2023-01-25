@@ -1,0 +1,16 @@
+.singlePage .img {
+    width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    min-height: 450px;
+}
+
+.singlePage .carousel-indicators button.active {
+    background-color: #ffeb3b;
+}
+.singlePage .right {
+    padding: 0 0 0 35px;
+    text-align: justify;
+}
